@@ -1,0 +1,131 @@
+/*Luke Laidlaw 4/7/2022*/
+/* changed the margins */
+*{
+    margin: 2px;;
+    padding:0;
+}
+
+/*created a custom nav bar*/
+.nav-menu{
+    float:right;
+    list-style:none;
+    margin-top:30px;
+}
+
+
+/* created a hover not just for the Tableau page */
+.nav-item a:hover {
+
+    background-color: burlywood;
+
+}
+
+/* created a background image using my own */
+.main{
+    background-color: burlywood;
+    height: fit-content;
+    color: #d2b48c;
+    background-size:cover;
+    background-position: center;
+}
+
+/* h2 and h1 are for the titles */
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 4px 2px black, 0 0 10px bisque, 0 0 5px tan;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Added a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color:azure;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  
+  /* Styled the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif
+  }
+  
+  /* Changed the color of links on hover */
+  .topnav a:hover {
+    background-color: bisque;
+    color: black;
+  }
+  
+  /* Added a color to the home link */
+  .topnav a.active {
+    background-color: azure;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 0px 0px black, 0 0 0px black, 0 0 1px black
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+  /* footer and animation*/
+  footer{
+    text-align: right;
+    background-color: tan;
+    color:black;
+    border-radius: 25px;
+    padding: 0%;
+}
+.commonfooter1{
+    right: 50%;
+    font-size: 30px;
+    font-family:sans-serif;
+    transform: translate(-50%,-50%);
+  }
+.pcali{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: azure;
+    border-radius: 25px;
+    padding: 30px;
+}

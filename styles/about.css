@@ -1,0 +1,111 @@
+/*Luke Laidlaw 4/4/2022*/
+
+*{
+    margin: 0;
+}
+.footer{
+    font-size: 30px;
+    font-family:sans-serif;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    float: left;
+}
+span{
+    animation: mover 4s linear infinite;
+    display: inline-block;
+    color: tan;
+    font-weight: bolder;
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+    50%{
+        text-shadow: 0 0 30px rgba(0, 0, 0, .30);
+        transform: translateY(30px);
+      }
+    100%
+      {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+      }
+}
+span:nth-child(1)
+{
+    animation-delay: 0.5s;
+}
+span:nth-child(2)
+{
+    animation-delay: 1s;
+}
+span:nth-child(3)
+{
+    animation-delay: 1.5s;
+}
+span:nth-child(4)
+{
+    animation-delay: 2s;
+}
+span:nth-child(5)
+{
+    animation-delay: 2.5s;
+}
+span:nth-child(6)
+{
+    animation-delay: 3s;
+}
+span:nth-child(7)
+{
+    animation-delay: 3.5s;
+}
+
+.commonfooter{
+    font-size: 30px;
+    font-family:sans-serif;
+    position: absolute;
+    bottom: -100px;
+    border-bottom-left-radius: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    float: left;
+  }
+
+  footer{
+    text-align: right;
+    background-color: azure;
+    padding:60px;
+    color:black;
+    border-radius: 25px;
+}
+
+main{
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center
+}
+
+.edu{
+    text-align: left;
+}
+
+.learn1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#german{
+    position: relative;
+    left: 100px;
+}
+
+.tara{
+    height: 300px;
+    width:300px;
+    position: relative;
+    left: 150px;
+    }
+
+
